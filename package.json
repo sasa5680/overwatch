@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel index.html",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "postinstall": "./node_modules/bower/bin/bower install"
+
   },
   "keywords": [],
   "author": "",
