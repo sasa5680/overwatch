@@ -4,20 +4,16 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html",
-    "start": "parcel index.html",
-    "postinstall": "./node_modules/bower/bin/bower install"
-  },
-    "engines": {
-    "node": "6.11.1"
+    "start": "serve"
+
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "parcel-bundler": "^1.12.5",
-    "sass": "^1.43.2"
+    "sass": "^1.43.2",
+    "serve": "^14.1.2"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
