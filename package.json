@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "engines": {
+    "node": "6.11.1"
+  },
   "scripts": {
     "build": "parcel build",
     "start": "serve"
